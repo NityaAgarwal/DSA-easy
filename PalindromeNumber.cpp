@@ -35,6 +35,11 @@ public:
         return (reversed == x);
     }
 };
+// SOME NOTES FOR THIS SOLUTION - 
+/*
+1. important to declare reversed and temp as long long instead of int - this we are doing to prevent overflow 
+2. yes, long long and int values can be compared (with reference to return(reversed==x) line
+*/ 
 
 //ONE MORE SOLUTION - REVERSING ONLY HALF OF THE NUMBER
 // for this solution, refer to - Approach 2 of following article
